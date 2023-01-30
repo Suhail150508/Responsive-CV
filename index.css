@@ -1,0 +1,640 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+background-color:lightblue ;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+transition: .7s;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  margin:0 40px;
+}
+h5{
+    font-size:2rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left:100px;
+    margin-right: 100px;
+ 
+
+}
+.mail{
+    padding-top: 50px;
+}
+a{
+    color:white;
+    font-size: 1rem;
+  margin-left: 1rem;
+
+}
+.left-side{
+   background-color:lightseagreen   ;
+   width: 40%;
+   height: 100%;
+   /* margin-right: 40px; */
+   padding: 30px;
+   padding-bottom: 65px;
+  
+}
+
+.container{
+    position: relative;
+    margin: 100px;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+    box-shadow: 0 35px 30px rgb(0,0, 0);
+    display: flex;
+    flex-direction: row;
+    /* padding: 100px;  */
+}
+
+.contact{
+    gap: 4rem;
+
+}
+
+h1{
+    text-align: center;
+    padding: 7px;
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    color: blanchedalmond;
+    background-color:rgba(85, 107, 47, 0.869);
+    width: 100%;
+}
+/*....... skills start from here......... */
+.html{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 1.2rem;
+}
+.html::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left:100px ;
+
+}
+.html::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 13rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.css{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 1.2rem;
+}
+.css::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.css::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 11rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.script{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 1.2rem;
+}
+.script::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left: 100px;
+}
+.script::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 9rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.react-js{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 1.2rem;
+}
+.react-js::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.react-js::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 9.5rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.node-js{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 2rem;
+}
+.node-js::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.node-js::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 10rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.mongodb{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 2rem;
+}
+.mongodb::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.mongodb::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 9.5rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.sql{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 2rem;
+}
+.sql::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.sql::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 7.5rem;
+    background-color:green;
+    border-radius: 10px;
+    margin-top: 4px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+
+.lang-skils{
+    margin-top: 50px;
+
+}
+
+
+.bangla{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 2rem;
+}
+.bangla::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 40px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.bangla::after{
+    /* visibility: visible; */
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 13rem;
+    background-color:navy;
+    border-radius: 10px;
+    left: 40px;
+    margin-left: 100px;
+
+}
+.english{
+    position: relative;  
+    height: 12px;
+    width: 15rem;
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    left: -40px;
+    margin-top: 2rem;
+}
+.english::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 14rem;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 40px;
+    left: 40px;
+    margin-left: 100px;
+
+
+}
+.english::after{
+   /* visibility: visible; */
+   content: '';
+   position: absolute;
+   height: 10px;
+   width: 10.5rem;
+   background-color:navy;
+   border-radius: 10px;
+   left: 40px;
+   margin-left: 100px;
+
+}
+
+
+.right-side{
+
+}
+.right-side h1{
+    width:50%;
+    background-color: rgba(143, 188, 143, 0.378);
+color: black;
+margin-left: 40px;
+}
+h4{
+    /* padding-top: 20px; */
+    padding-left: 40px;
+    color:black;
+    /* text-align: center; */
+}
+h2{
+    /* padding-top: 20px; */
+    padding-left: 40px;
+    color:black;
+    /* text-align: center; */
+}
+h3{
+    padding-left: 40px;
+    color:black;
+    /* text-align: center; */
+}
+.hobi{
+    line-height:40px
+}
+.ict{
+    padding: 10px;
+}
+.signature img{
+    height: 40px;
+    width: 200px;
+    border-radius: 0;
+    margin-top: .5rem;
+    margin: 0 auto;
+
+}
+.signature{
+    margin-top: 10rem;
+}
+.ict{
+  
+}
+@media screen and (max-width:1200px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    /*....... skills start from here......... */
+.html::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+
+}
+.html::after{
+    width: 11rem;
+    left: 40px;
+    margin-left:15px ;
+
+}
+.css::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.css::after{
+    width: 10rem;
+    left: 40px;
+    margin-left:15px ;
+
+}
+.script::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.script::after{
+    width: 8rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.react-js::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+
+}
+.react-js::after{
+    width: 8.5rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.node-js::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.node-js::after{
+    width: 9rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.mongodb::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+
+}
+.mongodb::after{
+    width: 8.5rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.sql::before{
+    width: 12rem;
+    left: 40px;
+    margin-left:15px ;
+}
+.sql::after{
+    width: 6.5rem;
+    left: 40px;
+    margin-left:15px ;
+
+}
+.bangla::before{
+    width: 12rem;
+    margin-left: 15px;
+
+}
+.bangla::after{
+    width: 11rem;
+    margin-left: 15px;
+
+
+}
+
+.english::before{
+    width: 12rem;
+    margin-left: 15px;
+
+
+}
+.english::after{
+   width: 8.5rem;
+   margin-left: 15px;
+
+
+}
+.hobi span{
+
+    font-size: 1rem;
+}
+.ict{
+    justify-content: center;
+}
+    .left-side{
+        width: 40%;
+
+    }
+    .right-side{
+        width: 60%;
+
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+        margin-left: 80px;
+        /* margin-right: 160px; */
+    }
+    h5{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .signature{
+        margin-top: 7rem;
+    }
+    .right-side h1{
+        width:80%;
+        background-color: rgba(143, 188, 143, 0.378);
+    color: black;
+
+    margin: 40px;
+    }
+}    
+@media screen and (max-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+        padding: 50px;
+        /* text-align: center; */
+        margin: 0 auto;
+    }
+    .right-side{
+        width: 100%;
+      padding: 20px;
+        text-align: center;
+    }
+    .skills{
+        text-align: center;
+    }
+    img{
+     margin-left:50px;
+    }
+    .contact{
+        font-size: .7rem;
+    }
+    .career-objective{
+    font-size: .7rem;
+    }
+    .ict{
+        font-size: .8rem;
+    }
+    .project{
+        font-size: .7rem;
+    }
+    .github{
+        font-size: .7rem;
+    }
+    .signature{
+        margin-top: 7rem;
+    }
+}    
