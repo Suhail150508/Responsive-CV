@@ -12,19 +12,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-transition: .7s;
+transition: All .7s linear;
 }
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
   margin:0 40px;
 }
-h5{
-    font-size:2rem;
-    font-weight: bold;
-    padding-bottom: 15px;
-    text-align: center;
-}
+
 
 img{
     height: 200px;
@@ -32,8 +27,8 @@ img{
     border-radius: 50%;
     margin: 0 auto;
     justify-content: center;
-    margin-left:100px;
-    margin-right: 100px;
+   
+
  
 
 }
@@ -48,10 +43,21 @@ a{
 }
 .left-side{
    background-color:lightseagreen   ;
-   width: 40%;
+   width: 52%;
    height: 100%;
+   margin-block-end: 0 auto;
    /* margin-right: 40px; */
    padding: 30px;
+   padding-bottom: 65px;
+  
+}
+.right-side{
+
+   width: 48%;
+   height: 100%;
+   margin-block-end: 0 auto;
+   margin-right: 40px;
+  
    padding-bottom: 65px;
   
 }
@@ -67,7 +73,7 @@ a{
     box-shadow: 0 35px 30px rgb(0,0, 0);
     display: flex;
     flex-direction: row;
-    /* padding: 100px;  */
+  
 }
 
 .contact{
@@ -78,9 +84,9 @@ a{
 h1{
     text-align: center;
     padding: 7px;
-    margin-top: 50px;
+    margin-top: 20px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: blanchedalmond;
     background-color:rgba(85, 107, 47, 0.869);
     width: 100%;
@@ -90,7 +96,7 @@ h1{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -105,7 +111,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left:100px ;
+    margin-left: 40px;
 
 }
 .html::after{
@@ -118,14 +124,14 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .css{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -140,7 +146,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .css::after{
@@ -153,14 +159,14 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .script{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -175,7 +181,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 }
 .script::after{
     /* visibility: visible; */
@@ -187,14 +193,14 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .react-js{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -209,7 +215,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .react-js::after{
@@ -222,14 +228,14 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .node-js{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -244,7 +250,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .node-js::after{
@@ -257,14 +263,14 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .mongodb{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -279,7 +285,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .mongodb::after{
@@ -292,14 +298,14 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .sql{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -314,7 +320,7 @@ h1{
     border-radius: 10px;
     margin-top: 30px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .sql::after{
@@ -327,8 +333,7 @@ h1{
     border-radius: 10px;
     margin-top: 4px;
     left: 40px;
-    margin-left: 100px;
-
+    margin-left: 40px;
 }
 
 .lang-skils{
@@ -341,7 +346,7 @@ h1{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -356,7 +361,7 @@ h1{
     border-radius: 10px;
     margin-top: 40px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .bangla::after{
@@ -368,14 +373,14 @@ h1{
     background-color:navy;
     border-radius: 10px;
     left: 40px;
-    margin-left: 100px;
+    margin-left: 40px;
 
 }
 .english{
     position: relative;  
     height: 12px;
     width: 15rem;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 1.4rem;
     font-weight: bold;
     left: -40px;
@@ -390,8 +395,7 @@ h1{
     border-radius: 10px;
     margin-top: 40px;
     left: 40px;
-    margin-left: 100px;
-
+    margin-left: 40px;
 
 }
 .english::after{
@@ -403,19 +407,16 @@ h1{
    background-color:navy;
    border-radius: 10px;
    left: 40px;
-   margin-left: 100px;
+   margin-left: 40px;
 
 }
 
 
-.right-side{
-
-}
 .right-side h1{
-    width:50%;
+    width:100%;
     background-color: rgba(143, 188, 143, 0.378);
 color: black;
-margin-left: 40px;
+/* margin-left: 40px; */
 }
 h4{
     /* padding-top: 20px; */
@@ -449,176 +450,34 @@ h3{
 
 }
 .signature{
-    margin-top: 10rem;
-}
-.ict{
-  
-}
-@media screen and (max-width:1200px) {
-    .container{
-        display: flex;
-        flex-direction: row;
-    }
-    /*....... skills start from here......... */
-.html::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-
-}
-.html::after{
-    width: 11rem;
-    left: 40px;
-    margin-left:15px ;
-
-}
-.css::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.css::after{
-    width: 10rem;
-    left: 40px;
-    margin-left:15px ;
-
-}
-.script::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.script::after{
-    width: 8rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.react-js::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-
-}
-.react-js::after{
-    width: 8.5rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.node-js::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.node-js::after{
-    width: 9rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.mongodb::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-
-}
-.mongodb::after{
-    width: 8.5rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.sql::before{
-    width: 12rem;
-    left: 40px;
-    margin-left:15px ;
-}
-.sql::after{
-    width: 6.5rem;
-    left: 40px;
-    margin-left:15px ;
-
-}
-.bangla::before{
-    width: 12rem;
-    margin-left: 15px;
-
-}
-.bangla::after{
-    width: 11rem;
-    margin-left: 15px;
-
-
+    margin-top: 3rem;
 }
 
-.english::before{
-    width: 12rem;
-    margin-left: 15px;
-
-
+.address{
+    line-height:30px;
 }
-.english::after{
-   width: 8.5rem;
-   margin-left: 15px;
 
-
-}
-.hobi span{
-
-    font-size: 1rem;
-}
-.ict{
-    justify-content: center;
-}
-    .left-side{
-        width: 40%;
-
-    }
-    .right-side{
-        width: 60%;
-
-    }
-    img{
-        height: 150px;
-        width: 150px;
-        margin: 0 auto;
-        margin-left: 80px;
-        /* margin-right: 160px; */
-    }
-    h5{
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .signature{
-        margin-top: 7rem;
-    }
-    .right-side h1{
-        width:80%;
-        background-color: rgba(143, 188, 143, 0.378);
-    color: black;
-
-    margin: 40px;
-    }
-}    
 @media screen and (max-width:900px) {
     .container{
         display: flex;
         flex-direction: column;
     }
-    .left-side{
-        width: 100%;
-        padding: 50px;
+    /* .left-side{
+     
+       padding:cent-;
+       width: 100%;
+
         /* text-align: center; */
-        margin: 0 auto;
-    }
-    .right-side{
-        width: 100%;
-      padding: 20px;
-        text-align: center;
-    }
+
+
+
     .skills{
         text-align: center;
     }
-    img{
-     margin-left:50px;
+   .image{
+ margin-right: 7 0px;
     }
+    
     .contact{
         font-size: .7rem;
     }
@@ -637,4 +496,4 @@ h3{
     .signature{
         margin-top: 7rem;
     }
-}    
+}
